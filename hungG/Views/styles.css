@@ -1,0 +1,318 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+header {
+    background: #fff;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    height: 50px;
+}
+
+main {
+    margin-top: 20px;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.row {
+    display: flex;
+    flex-wrap:nowrap;
+    margin: 5px;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.col-md-4 {
+    flex: 0 0 33.3333%;
+    max-width: 33.3333%;
+    padding: 15px;
+}
+
+.card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    transition: box-shadow 0.3s;
+}
+
+.card:hover {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card-body {
+    padding: 15px;
+}
+
+.card-body h5, .card-body h6 {
+    margin-bottom: 10px;
+}
+
+.card-body p {
+    font-size: 14px;
+    color: #555;
+}
+
+.card-body .btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    font-size: 14px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.card-body .btn:hover {
+    background-color: #0056b3;
+}
+
+.card-body .price {
+    margin-top: 10px;
+    display: block;
+    font-size: 16px;
+    color: #dc3545;
+}
+
+.card-body .price s {
+    margin-right: 5px;
+    color: #888;
+}
+
+.jumbotron {
+    background-color: #007bff;
+    color: #fff;
+    padding: 40px 0;
+    margin-bottom: 40px;
+}
+
+.jumbotron-heading {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.lead {
+    font-size: 18px;
+}
+
+.featurette-divider {
+    border-top: 1px solid #ddd;
+    margin: 40px 0;
+}
+
+.featurette-heading {
+    font-size: 30px;
+    font-weight: bold;
+    color: #333;
+}
+
+.text-muted {
+    color: #6c757d !important;
+}
+
+img.rounded-circle {
+    border-radius: 50%;
+}
+
+.bd-placeholder-img {
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+    padding-top: 10px;
+}
+
+.danhsachsanpham {
+    background-color: #00acfc;
+    padding: 40px 0;
+}
+nav ul {
+    list-style: none;
+    padding: 20px;
+    display: flex;
+    align-items: baseline;
+}
+
+nav ul li {
+    margin: 0 40px;
+}
+
+nav ul li a {
+    color:black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline; 
+}
+
+main {
+    padding: 20px;
+}
+
+.jumbotron {
+    background: #037af1;
+    padding: 40px 20px;
+}
+
+.jumbotron-heading {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.danhsachsanpham {
+    margin-top: 20px;
+}
+
+.product {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+}
+
+.product h2 {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.product p {
+    font-size: 1em;
+    color: #666;
+}
+.search-container {
+    float: right;
+    margin-top: 10px;
+}
+
+.search-container input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+}
+
+.search-container button {
+    float: right;
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+}
+
+.search-container button:hover {
+    background: #ccc;
+}
+/* cart */
+.table-responsive {
+    margin-top: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table th,
+.table td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.table th {
+    background-color: #f2f2f2;
+}
+
+.table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    color: white;
+}
+
+.btn-danger:hover {
+    background-color: #c82333;
+}
+
+.text-right {
+    text-align: right;
+    margin-top: 20px;
+}
+.price {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.bg-light {
+    background-color: #f8f9fa;
+}
+
+.danhsachsanpham {
+    padding: 40px 0;
+}
